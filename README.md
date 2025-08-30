@@ -63,3 +63,5 @@ Then you can run AWS CLI commands on the pod like this:
 
 `AWS_REGION=eu-west-2 AWS_ACCESS_KEY_ID=key AWS_SECRET_ACCESS_KEY=secret aws --endpoint-url=http://localhost:4566 sns subscribe --topic-arn arn:aws:sns:eu-west-2:000000000000:courteventstopic.fifo --protocol sqs --notification-endpoint arn:aws:sqs:eu-west-2:000000000000:cpr_court_events_queue.fifo`
 
+
+<!-- Updated on 2025-08-29 20:48:28 by automated script -->
